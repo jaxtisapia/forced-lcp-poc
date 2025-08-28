@@ -150,7 +150,7 @@ export function simulateUserClickUpperRightCorner(
   
   // Get viewport dimensions
   const viewportWidth = window.innerWidth;
-  const viewportHeight = window.innerHeight;
+  // const viewportHeight = window.innerHeight;
   
   // Calculate coordinates for upper right corner with optional offset
   const x = viewportWidth - offset;

@@ -11,7 +11,9 @@ const Screen1: React.FC = () => {
         if (isForced) {
             simulateUserClickUpperRightCorner()
         }
-    }, []);
+    },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
