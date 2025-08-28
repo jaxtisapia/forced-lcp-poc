@@ -7,16 +7,12 @@ const Screen1: React.FC = () => {
   const navigate = useNavigate();
   const {isForced}= useForceUserInteraction()
 
-    useEffect(() => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
         if (isForced) {
             simulateUserClickUpperRightCorner()
         }
-    },
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
       navigate('/screen2');
     }, 4000);
 
