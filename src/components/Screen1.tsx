@@ -17,7 +17,9 @@ const Screen1: React.FC = () => {
     }, 4000);
 
     return () => clearTimeout(timer);
-  }, [navigate]);
+  },
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+      [navigate]);
 
   return (
     <div style={{
