@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/forced-lcp-poc/static/css/main.e6c13ad2.css",
+    "main.js": "/forced-lcp-poc/static/js/main.6331a424.js",
+    "index.html": "/forced-lcp-poc/index.html",
+    "main.e6c13ad2.css.map": "/forced-lcp-poc/static/css/main.e6c13ad2.css.map",
+    "main.6331a424.js.map": "/forced-lcp-poc/static/js/main.6331a424.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6331a424.js"
+  ]
+}
